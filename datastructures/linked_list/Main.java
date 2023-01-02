@@ -1,10 +1,4 @@
-package datastructures;
-
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+package datastructures.linked_list;
 
 public class Main {
     public static void main(String[] args) {
