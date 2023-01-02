@@ -15,7 +15,10 @@ public class Main {
 
 //        System.out.println(myBTS.root.left.right.value);
 //        myBTS.print();
-        System.out.println(myBTS.contains(88)? "Found":"Not Found");
-        System.out.println(myBTS.contains(100)? "Found":"Not Found");
+//        System.out.println(myBTS.contains(88)? "Found":"Not Found");
+//        System.out.println(myBTS.contains(100)? "Found":"Not Found");
+        System.out.println(myBTS.BFS());
     }
+
+
 }
