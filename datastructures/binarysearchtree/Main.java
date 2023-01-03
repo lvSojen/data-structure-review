@@ -17,8 +17,7 @@ public class Main {
 //        myBTS.print();
 //        System.out.println(myBTS.contains(88)? "Found":"Not Found");
 //        System.out.println(myBTS.contains(100)? "Found":"Not Found");
-        System.out.println(myBTS.BFS());
+//        System.out.println(myBTS.BFS());
+        System.out.println(myBTS.DFSPreOrder());
     }
-
-
 }
