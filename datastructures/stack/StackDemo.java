@@ -32,11 +32,12 @@ public class StackDemo {
     public Node pop() {
         if(top == null) return null;
         Node temp = top;
-        if(temp.next != null) {
-            top = temp.next;
-        } else {
-            top = null;
-        }
+//        if(temp.next != null) {
+//            top = temp.next;
+//        } else {
+//            top = null;
+//        }
+        top = top.next;
         height --;
         temp.next = null;
         return temp;
